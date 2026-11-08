@@ -1,0 +1,16 @@
+# Python virtual environment and cache
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Local scraper history and generated reports
+vacancy_notices.sqlite3
+vacancy_notices.sqlite3-shm
+vacancy_notices.sqlite3-wal
+vacancy_notices.csv
+vacancy_notices.html
